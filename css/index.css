@@ -20,11 +20,15 @@ body {
 }
 
 .box-blue {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 50%;
+    height: 50rem;
     border: solid 0.7rem #fff;
     border-radius: 10px;
     text-align: center;
-    background-color: rgba(123, 217, 254, 0.68);
+    background-color: #7bd9fead;
 }
 
 .box-blue h2 {
@@ -36,7 +40,8 @@ body {
 .btn-happy-bad {
     display: flex;
     justify-content: space-around;
-    padding: 2rem;
+    padding: 5rem;
+    
 }
 
 .btn-happy-bad .btn-happy {

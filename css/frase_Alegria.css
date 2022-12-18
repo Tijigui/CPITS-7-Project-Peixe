@@ -3,15 +3,14 @@ body {
     background-position: 0px -280px;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 .conteudo {
+    width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     position: absolute;
-    top: 10%;
-    left: 16%;
+    top: 13%;
 }
 
 .box-blue {

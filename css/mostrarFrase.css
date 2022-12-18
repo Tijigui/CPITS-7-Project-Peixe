@@ -26,16 +26,10 @@ body {
     align-items: center;
 }
 
-.box-blue h2 {
-    font-size: 50px;
-    color: #fff;
-    padding: 5rem;
-    font-weight: 500;
-}
-
 .box-white {
     width: 30rem;
-    height: 9rem;
+    height: 15rem;
+    margin-top:5rem ;
     border: solid 0.7rem #fff;
     border-radius: 10px;
     text-align: center;
@@ -46,6 +40,7 @@ body {
     text-decoration: none;
     color: #fff;
     font-weight: 600;
+    padding: 20px 1px ;
 }
 
 #frase_gerada {

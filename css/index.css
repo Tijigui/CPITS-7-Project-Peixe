@@ -1,15 +1,8 @@
-* {
-    margin: 0%;
-    padding: 0%;
-    text-decoration: none;
-}
-
 body {
     background-image: url("../img/background.svg");
     background-position: 0px -280px;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 .conteudo {
@@ -20,22 +13,27 @@ body {
     top: 13%;
 }
 
+@media (max-width:1080px) {
+    .box-blue {
+        width: 1200px;
+    }
+}
+
 .box-blue {
     width: 50%;
     border: solid 0.7rem #fff;
     border-radius: 10px;
     text-align: center;
-    background-color: rgba(123, 217, 254, 0.68) ;
+    background-color: rgba(123, 217, 254, 0.68);
 }
 
 .box-blue h2 {
     font-size: 50px;
     color: #fff;
-    font-family: 'Times New Roman', Times, serif;
     padding: 5rem;
 }
 
-.btn-happy-bad{
+.btn-happy-bad {
     display: flex;
     justify-content: space-around;
     padding: 2rem;
@@ -52,7 +50,7 @@ body {
 
 .img-happy {
     width: 65px;
-    margin-top: 45px;
+    margin-top: 30%;
 }
 
 .btn-happy-bad .btn-bad {
@@ -65,7 +63,7 @@ body {
 
 .img-bad {
     width: 70px;
-    margin-top: 40px;
+    margin-top: 28%;
 }
 
 .btn-back {

@@ -5,7 +5,7 @@ function obterFraseAlegria() {
 
     var r_text = new Array();
 
-    r_text[1] = "1";
+    r_text[1] = "";
     r_text[2] = "2";
     r_text[3] = "3";
     r_text[4] = "4";

@@ -10,9 +10,9 @@ function obterFraseAlegria() {
     r_text[3] = "Que eu seja todo dia como um girassol, de costas para o escuro e de frente pra luz.";
     r_text[4] = "Que eu seja todo dia como um girassol, de costas para o escuro e de frente pra luz.";
     r_text[5] = "Hoje você tem duas opções: ser feliz ou ser mais feliz ainda!";
-    r_text[6] = "Para hoje: sorrisos, uma mente tranquila e um coração cheio de paz!";
+    r_text[6] = "E se ano que vem a gente fizesse academia ? <br> Não, lá não vendem brigadeiro.";
 
-    var fraseN = Math.floor(8 * Math.random());
+    var fraseN = Math.floor(7 * Math.random());
 
     document.getElementById("frase_gerada").innerHTML = r_text[fraseN];
 }

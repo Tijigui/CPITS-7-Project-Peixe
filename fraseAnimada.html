@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/fraseAnimada.css">
     <link rel="stylesheet" href="css/reset_font.css">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="img/peixe-favicon.png" type="image/x-icon">
-    <title>Peixe</title>
+    <title>Frase Animada</title>
 </head>
 
 <body>
@@ -19,33 +19,38 @@
     </header>
 
     <main>
+
+
+
         <section class="conteudo">
             <div class="box-blue">
-                <h2>Escolha sua atitude</h2>
 
-                <div class="btn-happy-bad">
+                <div onmouseover="obterFraseAnimada()" class="box-white">
 
-                    <div class="btn-happy">
-                        <a href="fraseAnimada.html"><img class="img-happy" src="img/icons8-vencedor-90.png" alt=""></a>
-
-                    </div>
-
-                    <div class="btn-bad">
-                        <a href="escolha-btn.html"><img class="img-bad" src="img/icons8-perdedor-100.png" alt=""></a>
-
-                    </div>
-
+                    <p id="frase_gerada">Veja Sua Frase</p>
 
                 </div>
 
+
+
+                <a href="index.html" class="btn-back">Back</a>
+
             </div>
         </section>
+
+
+
 
     </main>
 
     <footer>
 
+
     </footer>
+
+
+    <script src="js/fraseAnimada.js"></script>
+
 </body>
 
 </html>

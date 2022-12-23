@@ -3,6 +3,7 @@ body {
     background-position: 0px -280px;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 .conteudo {
@@ -10,7 +11,7 @@ body {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 13%;
+    top: 15%;
 }
 
 .box-blue {
@@ -23,38 +24,31 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.box-blue h2 {
-    font-size: 50px;
-    color: #fff;
-    padding: 5rem;
-    font-weight: 500;
+    justify-content: center;
 }
 
 .box-white {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 30rem;
-    height: 9rem;
+    height: 15rem;
     border: solid 0.7rem #fff;
     border-radius: 10px;
     text-align: center;
     background-color: #7bd9fead;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 .btn-back {
     text-decoration: none;
     color: #fff;
     font-weight: 600;
+    padding: 20px 1px ;
 }
 
 #frase_gerada {
     width: 26rem;
-    height: 7rem;
-    align-items: center;
-    padding: 1rem 2rem;
+    height: 13rem;
     color: #fff;
     display: flex;
     flex-direction: column;
